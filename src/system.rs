@@ -51,11 +51,11 @@ pub fn move_player(
 }
 
 // 射击
-pub fn shoot(
-    buttons: Res<Input<MouseButton>>,
-    time: Res<Time>,
-    mut commands: Commands,
-    mut query: Query<(&Gun, &Player)>,
-) {
-    if buttons.just_pressed(MouseButton::Left) {}
-}
+// pub fn shoot(
+//     buttons: Res<Input<MouseButton>>,
+//     time: Res<Time>,
+//     mut commands: Commands,
+//     mut query: Query<(&Gun, &Player)>,
+// ) {
+//     if buttons.just_pressed(MouseButton::Left) {}
+// }
